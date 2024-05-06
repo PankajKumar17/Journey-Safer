@@ -45,6 +45,13 @@ app.get('/home', (req, res) => {
         res.redirect('/');
     }
 });
+app.get('/abc', (req, res) => {
+    if (req.session.userId) {
+        res.sendFile(__dirname + '/abc.html');
+    } else {
+        res.redirect('/');
+    }
+});
 
 // Route for selecting user type
 app.post('/selectUser', (req, res) => {

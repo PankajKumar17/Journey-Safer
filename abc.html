@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styleabc.css"> -->
+    <style>
+      *{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    background-image: url(`C:\Users\navee\Desktop\PBL\pbl-BackendIncluded1-main\image\s.png`);
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.login{
+    position: absolute;
+    top:10px;
+    right: 0px;
+}
+
+.login img{
+    width: 130px;
+    margin-top: 12px;
+}
+
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.511);
+}
+/* .circle{
+    z-index: -40;
+    position: absolute;
+    background-color: #0056b3;
+    margin-left: 50%;
+    margin-top: -40%;
+    width: 200vh;
+    height: 200vh;
+    border-radius:50%;
+} */
+nav{
+    padding:4vh 10vw 4vh 4vh ;
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+}
+nav img{
+    width: 100px;
+}
+.div12{
+    display: flex;
+    color: white;
+}
+.div12 .logo{margin-top: 12px;}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap:4vw;
+    color: white;
+    list-style: none;
+}
+
+
+main{
+    display: flex;
+    gap: 4vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+}
+
+.images10 img{
+    width:100px;
+}
+.images11 img{
+    width:100px;
+}
+a{
+    text-decoration: none;
+}
+
+
+main .details{
+    margin-left: 10vw;
+    height: 60vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+
+.journey{
+    font-weight: 800;
+    font-size: 80px;
+}
+.safer{
+    font-weight: 800;
+    font-size: 80px;
+    color: lightgreen;
+}
+.details p{
+    font-size: larger;
+}
+
+main .line{
+    position: absolute;
+    height: 160px;
+    width: 12px;
+    background-color: white;
+    border-radius: 8px;
+    left: 8vw;
+    top: 31vh;
+}
+
+
+/* main .image img{
+    width: 500px;
+} */
+
+.getstarted img{
+    margin-top: 20px;
+    width: 200px;
+}
+
+main .image{
+    position: absolute;
+    top: 12vh;
+    right: 4vw;
+    display: flex;
+    gap:3vw;
+
+    /* width: 50vw; */
+    /* overflow: hidden; */
+}
+.one{
+    z-index: 50;
+    position: absolute;
+    right: 10vw;
+}
+
+.two{
+    transform: scale(0.8);
+}
+
+.box{
+    width: 280px;
+    height: 580px;
+    background-color: rgba(255, 255, 255, 0.686);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px;
+    color: black;
+}
+.box .img img{
+    width: 260px;
+    height: 280px;
+    border-radius: 12px;
+    align-self: center;
+}
+.img{
+    align-self: center;
+    padding-top: 10px;
+}
+.box h1{
+    color: black;
+    /* font-size: 23px;
+    font-weight: 700; */
+}
+.box p{
+    color: black;
+}
+.box img{
+    width: 180px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="home">
+
+      <nav>
+        <div class="div12">
+          <img src="image/js.png" alt="" />
+          <div class="logo">
+            Journey <br>Safer
+          </div>
+        </div>
+        <ul>
+          <li><a href="/abc">Home</a></li>
+          <li><a href="">Map</a></li>
+          <li><a href="">Car</a></li>
+        </ul>
+      </nav>
+      <div class="login">
+        <a href="/login"><img src="image/image 3.svg" alt="Login"></a>
+      </div>
+      <header>
+        <div class="images10">
+          <img src="image/image 1.svg" alt="">
+        </div>
+        <div class="images11">
+          <img src="image/image 2.svg" alt="">
+        </div>
+      </header>
+    <main>
+      <div class="line"></div>
+      <div class="details">
+        <h1 class="journey">JOURNEY</h1>
+        <h1 class="safer">SAFER</h1>
+        <p>JourneySafer is a groundbreaking solution aimed at addressing the persistent problem of unwanted fuel shortages during road travels.It provides travelers with a reliable way to address fuel deficiencies that occur unexpectedly during their journeys, ensuring smoother and more efficient travel experiences.</p>
+        <div class="getstarted">
+          <img src="image/get started.svg" alt="">
+        </div>
+      </div>
+      <div class="image">
+        <div class="box two">
+          <div class="img">
+            <img src="image/s.png" alt="">
+          </div>
+          <h1>Why We Do?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore aut cum nostrum. Iure quae provident facilis architecto dolorem sed dolorum sapiente labore voluptates. Aliquam, repudiandae.</p>
+          <img src="image/readme.svg" alt="">
+        </div>
+        <div class="box one">
+          <div class="img">
+            <img src="image/s.png" alt="">
+          </div>
+          <h1>Why We Do?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore aut cum nostrum. Iure quae provident facilis architecto dolorem sed dolorum sapiente labore voluptates. Aliquam, repudiandae.</p>
+          <img src="image/readme.svg" alt="">
+        </div>
+        <div class="box two">
+          <div class="img">
+            <img src="image/s.png" alt="">
+          </div>
+          <h1>Why We Do?</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore aut cum nostrum. Iure quae provident facilis architecto dolorem sed dolorum sapiente labore voluptates. Aliquam, repudiandae.</p>
+          <img src="image/readme.svg" alt="">
+        </div>
+      </div>
+    </main>
+    <header>
+      <div class="images11">
+        <img src="image/image 2.svg" alt="">
+      </div>
+      <div class="images10">
+        <img src="image/image 1.svg" alt="">
+      </div>
+    </header>
+  </div>
+  </body>
+</html>
