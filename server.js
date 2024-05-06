@@ -94,6 +94,9 @@ app.post('/submit', (req, res) => {
 
 // Route for user login
 app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/abc.html');
+});
+app.get('/log', (req, res) => {
     res.sendFile(__dirname + '/login.html');
 });
 
